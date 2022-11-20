@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新冠疫情数据可视化</title>
+	<link rel="stylesheet" href="../static/css/main.css">
+	<script src="../static/js/echarts-wordcloud.js"></script>
+	<script src="../static/js/echarts.js"></script>
+	<script src="../static/js/china.js"></script>
+	<script src="../static/js/jquery-1.8.3.min.js"></script>
+	<style type="text/css">
+		#return_index{
+			display: block;
+			margin-top: 20px;
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+<!--************试写链接***********-->
+<span id="return_index"><a href="/index" style="color: white" >返回首页</a> </span>
+<!--************试写链接***********-->
+<div id="title">新冠疫情数据可视化</div>
+<div id="tim"></div>
+<div id="l1">l1</div>
+<div id="l2">ec_left2现有确诊 现有无症状</div>
+<div id="c1">
+	<div class="num"><h1></h1></div>
+	<div class="num"><h1></h1></div>
+	<div class="num"><h1></h1></div>
+	<div class="num"><h1></h1></div>
+	<div class="txt"><h2>累计确诊</h2></div>
+	<div class="txt"><h2>累计疑似</h2></div>
+	<div class="txt"><h2>累计治愈</h2></div>
+	<div class="txt"><h2>累计死亡</h2></div>
+
+</div>
+<div id="c2">ec_center2中国疫情地图</div>
+<div id="r1">right1 现存确诊top5</div>
+<div id="r2"><img src="../static/img/wordcloud_r2.png" width="510px" height="355px"></div>
+
+<script src="../static/js/center2.js"></script>
+<script src="../static/js/left1.js"></script>
+<script src="../static/js/left2.js"></script>
+<script src="../static/js/right1.js"></script>
+<script src="../static/js/controller.js"></script>
+</body>
+</html>
